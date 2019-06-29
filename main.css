@@ -1,0 +1,575 @@
+
+*{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*smart phone landscape*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 823px) 
+and (orientation: landscape) {
+    .progress li{
+        font-size: 30px;
+        color: black;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .start{
+        margin-right: 25%;
+        margin-left: 25%;
+        height: 12%;
+        background-color:black;
+        border-style: solid;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-top: 4%;
+        margin-bottom: 10%;
+        }
+    .start h1{
+        color: slategrey;
+        margin-top: 13px;    
+    }
+    .start button{
+        margin-top: 20%;
+        padding: 30px;
+        border-style: solid;
+        color: slategray;
+        background-color: black;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+    .quiz h2{
+        color: slategray;
+        margin-top: 3%;
+        margin-right: 25%;
+        margin-left: 25%;
+        padding: 20px;
+        background: black;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .quiz li{
+        list-style: none;
+    }
+
+    .quiz input{
+        margin-left: 5%;
+        margin-right: 20px;
+    }
+
+    fieldset{
+        text-align: left;
+        color: slategray;
+        font-size: 20px;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 30px;
+        background-color: black;
+        margin-top: 1%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+    }
+    .quiz button{
+        color: slategray;
+        background-color: black;
+        margin-top: 1%;
+        margin-bottom: -10px;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 30px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    input[type=radio] {
+        padding: 10px;
+        border: 0px;
+        width: 18px;
+        height: 18px;
+    }
+    .feedback{
+        margin-right: 30%;
+        margin-left: 30%;
+        height: 42%;
+        color: slategray;
+        background: black;
+        border-radius: 20px;
+        margin-top: 13%;
+    }
+    .feedback h2{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .feedback p{
+        font-size: 20px;
+    }
+    .feedback button{
+        margin-top: 3%;
+        color: slategray;
+        border-style: solid;
+        background-color: black;
+        border-color: slategray;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 30px;
+    }
+    .restart{
+        margin-right: 30%;
+        margin-left: 30%;
+        height: 42%;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 20px;
+        margin-top: 13%;
+    }
+    .restart li{
+        list-style: none;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .restart button{
+        margin-top: 5%;
+        border-style: solid;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+/*smartphone portrait*/
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 812px) 
+and (orientation: portrait) {
+    .progress li{
+        font-size: 30px;
+        color: black;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .start{
+        margin-right: 15%;
+        margin-left: 15%;
+        height: 12%;
+        background-color: black;
+        border-style: solid;
+        border-radius: 20px;
+        font-size: 30px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        }
+    .start h1{
+        color: slategrey;
+        margin-top: 30px;    
+    }
+    .start button{
+        margin-top: 20%;
+        padding: 30px;
+        border-style: solid;
+        color: slategray;
+        background-color: black;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 60px;
+    }
+    .quiz h2{
+        color: slategray;
+        margin-top: 10%;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding: 20px;
+        background: black;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    .quiz li{
+        list-style: none;
+    }
+
+    .quiz input{
+        margin-left: 5%;
+        margin-right: 20px;
+    }
+
+    fieldset{
+        text-align: left;
+        color: slategray;
+        font-size: 30px;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 30px;
+        background-color: black;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+    }
+    .quiz button{
+        color: slategray;
+        background-color: black;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 30px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    input[type=radio] {
+        padding: 10px;
+        border: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    .feedback{
+        margin-right: 15%;
+        margin-left: 15%;
+        height: 20%;
+        color: slategray;
+        background: black;
+        border-radius: 20px;
+        margin-top: 15%;
+        margin-bottom: 50%;
+    }
+    .feedback h2{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .feedback p{
+        font-size: 30px;
+    }
+    .feedback button{
+        margin-top: 5%;
+        color: slategray;
+        border-style: solid;
+        background-color: black;
+        border-color: slategray;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .restart{
+        margin-right: 15%;
+        margin-left: 15%;
+        height: 20%;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 20px;
+        margin-top: 15%;
+    }
+    .restart li{
+        list-style: none;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .restart button{
+        margin-top: 8%;
+        border-style: solid;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 5px;
+        font-size: 30px;
+        padding: 30px;
+    }  
+
+}
+/* tablets portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .progress li{
+        font-size: 30px;
+        color: black;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .start{
+        margin-right: 15%;
+        margin-left: 15%;
+        height: 15%;
+        background-color: black;
+        border-style: solid;
+        border-radius: 20px;
+        font-size: 30px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        }
+    .start h1{
+        color: slategrey;
+        margin-top: 30px;    
+    }
+    .start button{
+        margin-top: 20%;
+        padding: 30px;
+        border-style: solid;
+        color: slategray;
+        background-color: black;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 60px;
+    }
+    .quiz h2{
+        color: slategray;
+        margin-top: 10%;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding: 20px;
+        background: black;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    .quiz li{
+        list-style: none;
+    }
+
+    .quiz input{
+        margin-left: 5%;
+        margin-right: 20px;
+    }
+
+    fieldset{
+        text-align: left;
+        color: slategray;
+        font-size: 30px;
+        margin-left: 21%;
+        margin-right: 21%;
+        padding: 30px;
+        background-color: black;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+    }
+    .quiz button{
+        color: slategray;
+        background-color: black;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 30px;
+        padding-right: 9%;
+        padding-left: 9%;
+    }
+    input[type=radio] {
+        padding: 10px;
+        border: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    .feedback{
+        margin-right: 25%;
+        margin-left: 25%;
+        height: 20%;
+        color: slategray;
+        background: black;
+        border-radius: 20px;
+        margin-top: 15%;
+    }
+    .feedback h2{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .feedback p{
+        font-size: 30px;
+    }
+    .feedback button{
+        margin-top: 5%;
+        color: slategray;
+        border-style: solid;
+        background-color: black;
+        border-color: slategray;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .restart{
+        margin-right: 25%;
+        margin-left: 25%;
+        height: 20%;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 20px;
+        margin-top: 15%;
+    }
+    .restart li{
+        list-style: none;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .restart button{
+        margin-top: 0%;
+        border-style: solid;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 5px;
+        font-size: 30px;
+        padding: 30px;
+    }
+}
+/* large Screens*/
+@media only screen 
+and (min-device-width : 824px) 
+and (max-device-width : 1920px) {
+    .progress li{
+        font-size: 30px;
+        color: black;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .start{
+        margin-right: 25%;
+        margin-left: 25%;
+        height: 12%;
+        background-color:black;
+        border-style: solid;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-top: 4%;
+        margin-bottom: 10%;
+        }
+    .start h1{
+        color: slategrey;
+        margin-top: 30px;    
+    }
+    .start button{
+        margin-top: 22%;
+        padding: 30px;
+        border-style: solid;
+        color: slategray;
+        background-color: black;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+    .quiz h2{
+        color: slategray;
+        margin-top: 5%;
+        margin-right: 25%;
+        margin-left: 25%;
+        padding: 20px;
+        background: black;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    .quiz li{
+        list-style: none;
+    }
+
+    .quiz input{
+        margin-left: 5%;
+        margin-right: 20px;
+    }
+
+    fieldset{
+        text-align: left;
+        color: slategray;
+        font-size: 30px;
+        margin-left: 29%;
+        margin-right: 29%;
+        padding: 30px;
+        background-color: black;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 20px;
+    }
+    .quiz button{
+        color: slategray;
+        background-color: black;
+        margin-top: 5%;
+        border-style: solid;
+        border-color: grey;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 30px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    input[type=radio] {
+        padding: 10px;
+        border: 0px;
+        width: 18px;
+        height: 18px;
+    }
+    .feedback{
+        margin-right: 35%;
+        margin-left: 35%;
+        height: 35%;
+        color: slategray;
+        background: black;
+        border-radius: 20px;
+        margin-top: 20%;
+    }
+    .feedback h2{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .feedback p{
+        font-size: 30px;
+    }
+    .feedback button{
+        margin-top: 3%;
+        color: slategray;
+        border-style: solid;
+        background-color: black;
+        border-color: slategray;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 30px;
+    }
+    .restart{
+        margin-right: 35%;
+        margin-left: 35%;
+        height: 35%;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 20px;
+        margin-top: 20%;
+    }
+    .restart li{
+        list-style: none;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .restart button{
+        margin-top: 2%;
+        border-style: solid;
+        color: slategray;
+        background: black;
+        border-color: slategray;
+        border-radius: 5px;
+        font-size: 30px;
+        padding: 30px;
+    }
+}
+label:hover{
+    color: white;
+}
+button:hover{
+      color: white;
+  }
+body{
+    background: black url(http://imgsrc.hubblesite.org/hvi/uploads/image_file/image_attachment/12741/xlarge_web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+html, body {
+    height: 100%;
+}
