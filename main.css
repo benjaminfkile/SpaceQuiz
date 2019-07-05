@@ -237,7 +237,7 @@ and (orientation: portrait) {
     .feedback{
         margin-right: 15%;
         margin-left: 15%;
-        height: 20%;
+        height: 25%;
         color: slategray;
         background: black;
         border-radius: 20px;
@@ -263,7 +263,7 @@ and (orientation: portrait) {
     .restart{
         margin-right: 15%;
         margin-left: 15%;
-        height: 20%;
+        height: 25%;
         color: slategray;
         background: black;
         border-color: slategray;
