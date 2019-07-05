@@ -100,6 +100,7 @@ and (orientation: landscape) {
         background: black;
         border-radius: 20px;
         margin-top: 13%;
+        
     }
     .feedback h2{
         padding: 20px;
@@ -163,7 +164,7 @@ and (orientation: portrait) {
         border-style: solid;
         border-radius: 20px;
         font-size: 30px;
-        margin-top: 10%;
+        margin-top: 25%;
         margin-bottom: 10%;
         }
     .start h1{
@@ -182,7 +183,7 @@ and (orientation: portrait) {
     }
     .quiz h2{
         color: slategray;
-        margin-top: 10%;
+        margin-top: 25%;
         margin-right: 10%;
         margin-left: 10%;
         padding: 20px;
@@ -240,15 +241,14 @@ and (orientation: portrait) {
         color: slategray;
         background: black;
         border-radius: 20px;
-        margin-top: 15%;
-        margin-bottom: 50%;
+        margin-top: 35%;
     }
     .feedback h2{
         padding: 20px;
-        font-size: 30px;
+        font-size: 45px;
     }
     .feedback p{
-        font-size: 30px;
+        font-size: 40px;
     }
     .feedback button{
         margin-top: 5%;
@@ -258,7 +258,7 @@ and (orientation: portrait) {
         border-color: slategray;
         border-radius: 20px;
         font-size: 30px;
-        padding: 30px;
+        padding: 40px;
     }
     .restart{
         margin-right: 15%;
@@ -268,12 +268,12 @@ and (orientation: portrait) {
         background: black;
         border-color: slategray;
         border-radius: 20px;
-        margin-top: 15%;
+        margin-top: 35%;
     }
     .restart li{
         list-style: none;
         padding: 20px;
-        font-size: 30px;
+        font-size: 40px;
     }
     .restart button{
         margin-top: 8%;
@@ -282,7 +282,7 @@ and (orientation: portrait) {
         background: black;
         border-color: slategray;
         border-radius: 5px;
-        font-size: 30px;
+        font-size: 40px;
         padding: 30px;
     }  
 
